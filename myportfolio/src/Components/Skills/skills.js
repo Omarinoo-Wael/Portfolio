@@ -1,10 +1,28 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-multi-carousel';
 import image from '../../assets/bg.avif';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import RoundProgressBar from '../roundProgressBar/roundpb';
+import 'react-multi-carousel/lib/styles.css';
 import './style.css';
 
-
+const responsive = {
+ superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 3
+    },
+    large: {
+        breakpoint: { max: 3000, min: 1200 },
+        items: 3
+    },
+    medium: {
+        breakpoint: { max: 1200, min: 600 },
+        items: 2
+    },
+    small: {
+        breakpoint: { max: 600, min: 0 },
+        items: 1
+    }
+};
 
 function carousel() {
   return (
@@ -16,30 +34,22 @@ function carousel() {
             <h3>
                 Some basic skills I have acquired over the years: 
             </h3>
-            <Carousel className='custom-carousel'>
-                <Carousel.Item>
-                    <div className='pos'>
-                        <RoundProgressBar percentage={80} skill={'Web Development'}/>
-                        <RoundProgressBar percentage={85} skill={'Skill 2'}/>
-                        <RoundProgressBar percentage={90} skill={'Skill 3'}/>
-                    </div>
-                </Carousel.Item>
+            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                <div className='pos'>
+                    <RoundProgressBar percentage={80} skill={'Web Development'}/>
+                </div>
                 
-                <Carousel.Item>
-                        <div className='pos'>
-                            <RoundProgressBar percentage={100} skill={'Skill 4'}/>
-                            <RoundProgressBar percentage={60} skill={'Skill 5'}/>
-                            <RoundProgressBar percentage={98} skill={'Skill 6'}/>
-                        </div>
-                    
-                </Carousel.Item>
-                <Carousel.Item>
-                        <div className='pos'>
-                            <RoundProgressBar percentage={95} skill={'Skill 7'}/>
-                            <RoundProgressBar percentage={78} skill={'Skill 8'}/>
-                            <RoundProgressBar percentage={87} skill={'Skill 9'}/>
-                        </div>
-                </Carousel.Item>
+                <div className='pos'>
+                    <RoundProgressBar percentage={100} skill={'Skill 2'}/>
+                </div>
+
+                <div className='pos'>
+                    <RoundProgressBar percentage={95} skill={'Skill 3'}/>
+                </div>
+
+                <div className='pos'>
+                    <RoundProgressBar percentage={72} skill={'Skill 4'}/>
+                </div>
             </Carousel>
         </div>
     </section>  

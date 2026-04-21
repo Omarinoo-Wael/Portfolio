@@ -11,7 +11,7 @@ import contactBtn from '../../assets/arrow-right-circle.svg';
 import './style.css';
 function navbar() {
   return (
-    <Navbar expand="lg" className="custom-nav" fixed='top'>
+    <Navbar expand="lg" className="custom-nav" fixed='top' variant='dark'>
       <Container>
         <Navbar.Brand href="#home">
             <span className='logo'>

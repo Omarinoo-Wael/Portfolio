@@ -1,5 +1,8 @@
 .banner {
+    background-color: #000;
     background-image: url('../../assets/bg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 250px 0px;
 }   
 
@@ -18,16 +21,19 @@
 
 .cv-btn {
     background-color: transparent;
-    border: none;
+    border-radius: 12px;
+    border: 2px solid rgba(21, 155, 185, 0.445);
+    box-shadow: 0 4px 8px rgba(0, 208, 255, 0.492);
     color: #fff;
     margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .cv-btn img {
     width: 13px;
     height: auto;
-    filter: brightness(0) invert(1);
+    filter: invert(1);
     opacity: 0.8;
     margin: 10px;
     object-fit: contain;
@@ -40,14 +46,14 @@
 }
 
 .cv-btn:hover img {
-    filter: brightness(0) invert(0);
+    filter: invert(0);
 }
 
 .profile-card {
     width: 340px;
     height: 510px;
     margin-top: -80px;
-    margin-left: 250px;
+    margin-left: 200px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -55,7 +61,6 @@
     padding: 20px;
     padding-bottom: 0;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
     transition: all 0.4s ease;
 }
 
@@ -66,9 +71,14 @@
 }
 
 .guy img {
-    background-color: black;
     background-size: 150% 150%;
     width: 300px;
     height: auto;   
     transform: scaleX(-1);
+}
+
+@media (max-width: 1000px) {
+    .profile-card {
+        display: none;
+    }
 }

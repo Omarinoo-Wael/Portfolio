@@ -4,13 +4,19 @@
     stroke-width: 8;
 }
 
+@keyframes fillProgress {
+  from {
+    stroke-dashoffset: 502.65;
+  }
+}
+
 .circle-progress {
     stroke-width:10;
     stroke-linecap:round;
     fill:none;
     transform-origin: center;
     transform: rotate(-10deg);
-    transition: stroke-dashoffset 1.5s ease-out;
+    animation: fillProgress 2s ease-out forwards;
 }
 
 .skill {
