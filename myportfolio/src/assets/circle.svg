@@ -1,0 +1,13 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="50" stroke="darkgray" stroke-width="10" fill="transparent" />
+  <circle cx="200" cy="200" r="50" 
+  stroke="blue" 
+  stroke-width="10" 
+  stroke-linecap="round"
+  fill="transparent"
+  stroke-dasharray="251" 
+  stroke-dashoffset="23"
+  style="transition: stroke-dashoffset 1s ease-out;"
+  />
+</svg>
+ 
