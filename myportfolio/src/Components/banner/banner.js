@@ -3,7 +3,28 @@ import {Row, Col} from 'react-bootstrap';
 import myCV from '../../assets/CV.pdf';
 import downloadImg from '../../assets/download.png';
 import './style.css'
-function banner(){
+import React, { useState, useEffect } from 'react';
+
+
+
+function Banner(){
+    const [text, setText] = useState('');
+    const [finished, setFinished] = useState(false);
+    const fulltext = "OMAR WAEL";
+
+    useEffect(() => {
+        let i = 0;
+        const interval = setInterval(() => {
+            setText(fulltext.substring(0, i + 1));
+            i++;
+            if (i >= fulltext.length) {
+                clearInterval(interval);
+                setFinished(true);
+            }
+        }, 150);
+
+        return () => clearInterval(interval); // Cleanup on unmount
+    }, []);
     return(
         <section className='banner' id='home'>
             <Container>
@@ -11,7 +32,8 @@ function banner(){
                     <Col> 
                         <span>
                             <h1>
-                                OMAR WAEL
+                                {text}
+                                <span className={finished ? 'finished' : 'cursor'}>|</span>
                             </h1>
                         </span>
                         <p>
@@ -39,4 +61,4 @@ function banner(){
     );
 }
 
-export default banner;
+export default Banner;

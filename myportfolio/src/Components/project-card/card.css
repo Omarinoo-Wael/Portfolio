@@ -1,0 +1,25 @@
+.proj-img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.proj-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.proj-txt {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.proj-card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
