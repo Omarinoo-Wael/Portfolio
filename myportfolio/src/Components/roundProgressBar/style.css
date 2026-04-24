@@ -1,7 +1,7 @@
 .circle-bg {
-    fill: none;
-    stroke: aliceblue;
-    stroke-width: 8;
+  fill: none;
+  stroke: aliceblue;
+  stroke-width: 8;
 }
 
 @keyframes fillProgress {
@@ -11,19 +11,19 @@
 }
 
 .circle-progress {
-    stroke-width:10;
-    stroke-linecap:round;
-    fill:none;
-    transform-origin: center;
-    transform: rotate(-10deg);
-    animation: fillProgress 2s ease-out forwards;
+  stroke-width: 10;
+  stroke-linecap: round;
+  fill: none;
+  transform-origin: center;
+  transform: rotate(-10deg);
+  animation: fillProgress 2s ease-out forwards;
 }
 
 .skill {
-    margin: 0px 20px;
-    transition: filter 0.3s ease;
+  margin: 0px 20px;
+  transition: filter 0.3s ease;
 }
 
 .skill:hover {
-    filter: drop-shadow(0px 0px 25px #2d94d4);
+  filter: drop-shadow(0px 0px 25px #2d94d4);
 }
