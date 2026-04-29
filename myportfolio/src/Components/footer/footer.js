@@ -5,6 +5,8 @@ import Logo from "../../assets/OW.png";
 import { Row, Col } from "react-bootstrap";
 import "./footer.css";
 function Footer() {
+  let date = new Date();
+  let year = date.getFullYear;
   return (
     <footer className="custom-footer">
       <Col size={12} md={6}>
@@ -24,7 +26,7 @@ function Footer() {
             <img src={githubImg} alt="GitHub" />
           </a>
           <p className="copyright">
-            &copy; 2024 Omar Wael. All rights reserved.
+            &copy; {year} Omar Wael. All rights reserved.
           </p>
         </span>
       </Col>
