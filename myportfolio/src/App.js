@@ -8,6 +8,7 @@ import Projects from "./Components/tabs/tabs";
 import Loader from "./Components/loader/loader";
 import Contact from "./Components/contact/contact";
 import React, { useState, useEffect } from "react";
+import Footer from "./Components/footer/footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function App() {
           <Skills />
           <Projects />
           <Contact />
+          <Footer />
         </>
       )}
     </>

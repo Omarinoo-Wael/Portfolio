@@ -21,7 +21,7 @@ function Banner() {
       }
     }, 150);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
   return (
     <section className="banner" id="home">

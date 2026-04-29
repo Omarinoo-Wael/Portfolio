@@ -1,6 +1,7 @@
 import "./contact.css";
 import React, { useState, useEffect } from "react";
 import Alert from "react-bootstrap/Alert";
+import { Row, Col } from "react-bootstrap";
 
 function Contact() {
   const [result, setResult] = useState("");
@@ -59,6 +60,15 @@ function Contact() {
             placeholder="Your Message"
             required
           ></textarea>
+        </div>
+        <div className="custom-checkbox-container">
+          <label className="checkbox-wrapper">
+            <input type="checkbox" name="news" id="news-checkbox" value="Yes" />
+            <span className="checkbox-tile"></span>
+          </label>
+          <label htmlFor="news-checkbox" className="news-label">
+            Subscribe to newsletter for updates.
+          </label>
         </div>
         <button className="send-btn" type="submit">
           Send Message

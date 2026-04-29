@@ -29,7 +29,7 @@ function navbar() {
             <a href="https://www.instagram.com/omarinoo_wael">
               <img src={igImg} alt="Instagram" />
             </a>
-            <a>
+            <a href="https://www.linkedin.com">
               <img src={linkedinImg} alt="LinkedIn" />
             </a>
             <a href="https://github.com/Omarinoo-Wael">
