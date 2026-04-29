@@ -6,7 +6,7 @@ import { Row, Col } from "react-bootstrap";
 import "./footer.css";
 function Footer() {
   let date = new Date();
-  let year = date.getFullYear;
+  let year = date.getFullYear();
   return (
     <footer className="custom-footer">
       <Col size={12} md={6}>
