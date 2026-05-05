@@ -3,7 +3,7 @@
   background-color: #000;
   background-image:
     linear-gradient(to bottom, #000 0%, transparent 60%),
-    linear-gradient(to top, #000 0%, transparent 5%),
+    linear-gradient(to top, #000 0%, transparent 10%),
     url("../../assets/bg.avif");
   background-size: cover;
   background-position: bottom;
@@ -60,6 +60,14 @@ textarea {
   border: 1px solid #ffffff;
   width: 13vw;
   height: 50px;
+  transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #ffffffa3;
+  color: #000;
+  border: none;
+  transition: all 0.3s ease;
 }
 
 ::placeholder {
