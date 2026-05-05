@@ -12,7 +12,7 @@ function Banner() {
     <section className="banner" id="home">
       <Container>
         <Row className="justify-content-center">
-          <Image className="me" src={profilePic} roundedCircle />
+          <Image className="me" src={profilePic} alt="Myself" roundedCircle />
         </Row>
         <Row>
           <Col>
