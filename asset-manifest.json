@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/css/main.6a08ca7e.css",
-    "main.js": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/js/main.be2bf6cd.js",
-    "static/js/453.ea969ed9.chunk.js": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/js/453.ea969ed9.chunk.js",
-    "static/media/bg.avif": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/bg.41c998f8f33a9ea783d0.avif",
-    "static/media/OW.png": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/OW.1b0cda77d4feeddc425a.png",
-    "static/media/me.jpeg": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/me.b14276ea6b1e924b739a.jpeg",
-    "static/media/instagram.png": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/instagram.b691a9313791ac3058c8.png",
-    "static/media/github.png": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/github.2daf8617f4b92d421da4.png",
-    "static/media/revicons.eot": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/CV.pdf": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/CV.a020698537c4663c6e94.pdf",
-    "static/media/revicons.woff": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/proj1.avif": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/proj1.1602a5e5181f426eb397.avif",
-    "static/media/logo.svg": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/index.html",
-    "static/media/arrow-right-circle.svg": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/media/arrow-right-circle.b17b7fc068deb0c15b418d21928d99cf.svg",
-    "main.6a08ca7e.css.map": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/css/main.6a08ca7e.css.map",
-    "main.be2bf6cd.js.map": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/js/main.be2bf6cd.js.map",
-    "453.ea969ed9.chunk.js.map": "/[https://omarwaelothman.com/]%20(https://omarwaelothman.com/)/static/js/453.ea969ed9.chunk.js.map"
+    "main.css": "/static/css/main.d20fb02e.css",
+    "main.js": "/static/js/main.08102c31.js",
+    "static/js/453.ea969ed9.chunk.js": "/static/js/453.ea969ed9.chunk.js",
+    "static/media/bg.avif": "/static/media/bg.41c998f8f33a9ea783d0.avif",
+    "static/media/OW.png": "/static/media/OW.1b0cda77d4feeddc425a.png",
+    "static/media/me.jpeg": "/static/media/me.b14276ea6b1e924b739a.jpeg",
+    "static/media/instagram.png": "/static/media/instagram.b691a9313791ac3058c8.png",
+    "static/media/github.png": "/static/media/github.2daf8617f4b92d421da4.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/CV.pdf": "/static/media/CV.a020698537c4663c6e94.pdf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/proj1.avif": "/static/media/proj1.1602a5e5181f426eb397.avif",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-right-circle.svg": "/static/media/arrow-right-circle.b17b7fc068deb0c15b418d21928d99cf.svg",
+    "main.d20fb02e.css.map": "/static/css/main.d20fb02e.css.map",
+    "main.08102c31.js.map": "/static/js/main.08102c31.js.map",
+    "453.ea969ed9.chunk.js.map": "/static/js/453.ea969ed9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a08ca7e.css",
-    "static/js/main.be2bf6cd.js"
+    "static/css/main.d20fb02e.css",
+    "static/js/main.08102c31.js"
   ]
 }
